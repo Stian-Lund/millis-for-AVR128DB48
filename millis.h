@@ -1,6 +1,6 @@
 /*
  * File:   millis.h
- * Author: Stian
+ * Author: Stian Østhus Lund
  *
  * Created on October 14, 2025, 9:36 PM
  */
@@ -25,3 +25,4 @@ extern "C"
 #endif
 
 #endif /* MILLIS_H */
+
