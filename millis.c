@@ -1,3 +1,10 @@
+/*
+ * File:   millis.h
+ * Author: Stian Østhus Lund
+ *
+ * Created on October 14, 2025, 9:36 PM
+ */
+
 #include "millis.h"
 #include <util/atomic.h>
 
@@ -41,4 +48,5 @@ ISR(TCA0_OVF_vect)
 {
     milliseconds++;
     TCA0.SINGLE.INTFLAGS = TCA_SINGLE_OVF_bm; // Clear interrupt flag
+
 }
