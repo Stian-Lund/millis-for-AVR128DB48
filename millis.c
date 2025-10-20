@@ -1,5 +1,5 @@
 /*
- * File:   millis.h
+ * File:   millis.c
  * Author: Stian Østhus Lund
  *
  * Created on October 14, 2025, 9:36 PM
@@ -50,3 +50,4 @@ ISR(TCA0_OVF_vect)
     TCA0.SINGLE.INTFLAGS = TCA_SINGLE_OVF_bm; // Clear interrupt flag
 
 }
+
